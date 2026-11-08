@@ -6,8 +6,8 @@
 программа не падает (try/except OSError).
 """
 
+from __future__ import annotations
 import datetime
-
 from constants import LOG_FILE
 
 _entries: list[str] = []
